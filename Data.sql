@@ -1,0 +1,110 @@
+-- User --
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (1, 'adelacey0', 'Aloysius', 'De Lacey', '8/1/2001', 'yR6}_ZlQ3E~', '8/3/2024');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (2, 'hworsom1', 'Hailee', 'Worsom', '12/28/2009', 'sD6}j6Omb`Xw', '8/27/2024');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (3, 'swetter2', 'Sonni', 'Wetter', '9/28/2007', 'lU3=EOFQP/SdeN8X', '1/6/2024');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (4, 'gdreghorn3', 'Geno', 'Dreghorn', '5/18/2004', 'jM4`j~(y', '11/7/2023');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (5, 'yantonchik4', 'Yettie', 'Antonchik', '9/7/2006', 'bK6&qt!$b', '7/28/2024');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (6, 'mprothero5', 'Marie', 'Prothero', '12/31/2003', 'kM1!kTM.ezl/?', '10/8/2023');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (7, 'gelloy6', 'Gwen', 'Elloy', '7/19/2002', 'aX1_=E8A', '8/15/2024');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (8, 'cstretton7', 'Chickie', 'Stretton', '6/1/2009', 'xM2''9UF#cm', '2/22/2024');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (9, 'cstickney8', 'Corabelle', 'Stickney', '3/21/2006', 'xF1/yQ*ISm+0n', '12/3/2023');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (10, 'gwhitecross9', 'Giorgi', 'Whitecross', '2/17/2008', 'kA7.#9yx)XsdNJF', '9/1/2024');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (11, 'jcornilleaua', 'Jethro', 'Cornilleau', '11/17/2005', 'eJ1\1LHO', '8/13/2024');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (12, 'jbevesb', 'Jillayne', 'Beves', '4/11/2009', 'iR2>J`,<HqBfxC_', '5/4/2024');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (13, 'mgallonec', 'Modestine', 'Gallone', '8/21/2003', 'sV1~*V#~W+)Gsrv"', '4/14/2024');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (14, 'jhamed', 'Joshua', 'Hame', '8/4/2005', 'vS2~GwkR?jy,1V3', '10/10/2023');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (15, 'gbramwelle', 'Garwood', 'Bramwell', '8/17/2010', 'vG1`GqEY`)#JPcWH', '12/25/2023');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (16, 'gfarref', 'Giulio', 'Farre', '7/13/2003', 'mJ8#7nE@5//', '10/5/2023');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (17, 'tpurveysg', 'Tara', 'Purveys', '12/23/2005', 'qQ6{q!4D*yz', '9/30/2023');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (18, 'ahanbyh', 'Alvina', 'Hanby', '5/20/2003', 'qV9,S_s?kB', '7/29/2024');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (19, 'nbarshami', 'Nesta', 'Barsham', '10/7/2004', 'iY1+tg)Z/~{n', '6/8/2024');
+insert into Users (UserID , Username , FirstName , LastName , DateOfBirth , Password , DateAdded ) values (20, 'ehaberchamj', 'Eben', 'Habercham', '8/13/2005', 'eV1_"T3j+wPymt$n', '3/16/2024');
+
+
+--Friends--
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (1, 8, 5, true, '10/26/2023');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (2, 18, 4, true, '5/4/2024');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (3, 14, 7, false, '2/22/2024');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (4, 11, 11, true, '11/27/2023');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (5, 20, 10, true, '12/9/2023');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (6, 7, 5, false, '8/11/2024');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (7, 4, 16, true, '1/20/2024');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (8, 1, 10, false, '5/6/2024');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (9, 14, 20, true, '8/8/2024');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (10, 20, 20, false, '12/22/2023');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (11, 8, 10, true, '11/27/2023');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (12, 6, 4, false, '11/17/2023');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (13, 10, 6, false, '3/26/2024');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (14, 8, 7, true, '6/2/2024');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (15, 11, 7, true, '7/8/2024');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (16, 7, 10, false, '11/7/2023');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (17, 16, 20, true, '7/22/2024');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (18, 8, 11, false, '5/23/2024');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (19, 12, 10, false, '10/6/2023');
+insert into Friends  (FriendID , FriendWhoAdded , FriendBeingAdded , IsAccepted , DateAdded ) values (20, 15, 14, false, '6/16/2024');
+
+--Groups--
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (1, 'Feedmix', 17, '12/25/2023');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (2, 'Divape', 16, '11/29/2023');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (3, 'Browsedrive', 10, '1/1/2024');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (4, 'Skyba', 5, '7/18/2024');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (5, 'BlogXS', 18, '1/8/2024');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (6, 'Gigazoom', 20, '1/22/2024');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (7, 'Thoughtbridge', 16, '5/18/2024');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (8, 'Dynabox', 5, '6/12/2024');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (9, 'Jetwire', 11, '11/12/2023');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (10, 'Dynabox', 9, '5/5/2024');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (11, 'Riffpath', 14, '12/21/2023');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (12, 'Jazzy', 1, '2/10/2024');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (13, 'Dablist', 12, '5/2/2024');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (14, 'Quaxo', 4, '4/16/2024');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (15, 'Photobug', 17, '2/2/2024');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (16, 'Aimbo', 15, '7/22/2024');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (17, 'Tagchat', 12, '1/18/2024');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (18, 'Twitterworks', 12, '4/3/2024');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (19, 'Innojam', 20, '6/5/2024');
+insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (20, 'Skaboo', 6, '10/30/2023');
+
+--Post--
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (1, 'Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.', 1, true, false, 18, '2/4/2024');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (2, 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.', 12, false, false, 2, '11/17/2023');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (3, 'Praesent blandit. Nam nulla.', 6, false, false, 2, '8/14/2024');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (4, 'Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.', 17, true, true, 18, '6/25/2024');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (5, 'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.', 15, true, true, 7, '7/8/2024');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (6, 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 10, true, true, 3, '2/23/2024');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (7, 'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.', 8, false, false, 18, '7/15/2024');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (8, 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.', 10, true, true, 19, '8/26/2024');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (9, 'Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.', 18, true, true, 12, '11/28/2023');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (10, 'Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.', 1, false, false, 1, '1/25/2024');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (11, 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.', 7, false, true, 20, '2/29/2024');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (12, 'Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.', 14, true, true, 4, '2/6/2024');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (13, 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.', 9, false, true, 15, '12/7/2023');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (14, 'Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.', 19, true, true, 16, '12/19/2023');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (15, 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.', 1, false, true, 15, '7/30/2024');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (16, 'In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.', 3, true, true, 16, '1/19/2024');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (17, 'Aenean auctor gravida sem.', 1, false, true, 9, '5/16/2024');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (18, 'Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.', 11, false, true, 14, '8/21/2024');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (19, 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', 4, true, true, 13, '12/19/2023');
+insert into Posts (PostID, PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID, DatePosted) values (20, 'Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.', 3, true, true, 8, '3/21/2024');
+
+--MembershipRequest--
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (1, 16, 7, false, '5/23/2024');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (2, 1, 18, false, '5/3/2024');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (3, 6, 10, true, '10/25/2023');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (4, 7, 9, false, '11/29/2023');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (5, 1, 1, true, '12/16/2023');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (6, 15, 9, false, '6/30/2024');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (7, 1, 6, false, '9/4/2023');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (8, 5, 3, true, '9/24/2023');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (9, 2, 2, true, '11/22/2023');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (10, 6, 12, false, '2/1/2024');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (11, 17, 14, true, '5/3/2024');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (12, 10, 10, true, '10/17/2023');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (13, 7, 1, false, '10/21/2023');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (14, 4, 2, true, '11/2/2023');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (15, 2, 16, false, '12/17/2023');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (16, 4, 13, false, '10/16/2023');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (17, 8, 7, true, '7/4/2024');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (18, 1, 4, false, '7/23/2024');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (19, 13, 7, true, '9/17/2023');
+insert into GroupMembershipRequests  (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (20, 16, 12, false, '11/22/2023');
